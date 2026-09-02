@@ -1,0 +1,22 @@
+{
+  "name": "Python Codespace",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+  
+  // Stay with minimal Python package install so we can fix the terminal prompt
+  "postCreateCommand": "pip install --upgrade pip",
+  //"postCreateCommand": "pip install --upgrade pip && pip install jupyter ipykernel numpy pandas matplotlib",
+
+  // Fix the prompt on every restart
+  "postStartCommand": "echo 'export PS1=\"\\w$ \"' >> ~/.bashrc",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-python.vscode-pylance"
+        // NOTE: do NOT list GitHub Copilot or other AI extensions here
+      ]
+    }
+  }
+}
