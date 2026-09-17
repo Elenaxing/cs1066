@@ -6,18 +6,16 @@
 ###
 ### Based on scrape_save.py but using the enhanced trends_scraper with bot detection
 import csv
-from urllib.parse import quote_plus
 from trends_scraper import get_driver, scrape_interest_data
 
 
 def main():
-    query = input("Enter a search term or phrase: ").strip()
-
     # Build the URL for Google Trends. This is the page we'll scrape.
     date_range = "now%207-d"
     geo = "US"
+    query = "vibe coding"
     site = "https://trends.google.com/trends/explore"
-    url = f"{site}?date={date_range}&geo={geo}&q={quote_plus(query)}&hl=en"
+    url = f"{site}?date={date_range}&geo={geo}&q={query}&hl=en"
 
     # Build a driver for a browser
     driver = get_driver()
