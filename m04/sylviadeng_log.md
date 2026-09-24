@@ -62,6 +62,13 @@ I liked this approach because the result was clear and functional, and I did not
 
 ... YOU DO NOTHING HERE; ANOTHER STUDENT WILL COMPLETE THIS PART IN SECTION ...
 
+I liked how clean and well-organized your prompt was. You used the structured format to construct your prompt by first including the overall goal, four clear steps and the important details. Compared with my approach of dividing the project into six subtasks and writing separate prompts for each, you combined the stages into one structured prompt. Your approach showed me that decomposition can also happen within a single prompt, which is something I could try in future assignments.
+
+One suggestion is to include more specific instructions for checking the results. For example, you could ask the AI to print the selected years and financial values before generating the plots so you can verify the data. I also agree with your reflection about clarifying formatting and missing data: specifying units such as millions of USD and asking the tool to clearly label unavailable data would make the output easier to interpret. 
+
+Baoyue Xing
+
+
 ----
 ----
 
