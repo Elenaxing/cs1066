@@ -11,6 +11,7 @@ https://harvard.zoom.us/rec/share/iPFAZWyjpFDA2tsOuoxNwczvKdzqphpZK_NLjAY93PC3gx
 ### Describe Your Decomposition Approach
 
 ... YOUR COUPLE OF PARAGRAPHS HERE ...
+
 I would first focus on the user input and data collection process by making sure the program could accept a company’s 10-digit CIK number and use it to connect to the SEC EDGAR API. After that, I would work on identifying and extracting the three required financial measures: revenue, net income, and assets. Then, I would clean and organize the results so that the program keeps the most recent 10 years of annual data when that much data is available.
 
 After finishing the data-processing part, I would move on to the output and presentation side of the project. I planned to create separate plots for revenue, net income, and assets, and then combine those plots into a single webpage. Once the webpage was working, I would test the tool using AMD’s CIK and then try other companies to make sure the program could work with different inputs.
